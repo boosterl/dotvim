@@ -1,0 +1,27 @@
+[submodule "pathogen"]
+	path = pathogen
+	url = git@github.com:tpope/vim-pathogen.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
+	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "syntastic"]
+	path = syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim-airline-themes"]
+	path = vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "vim-fugitive"]
+	path = vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "vim-gitgutter"]
+	path = vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
