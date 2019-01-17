@@ -4,5 +4,5 @@ To use this vim config, clone this repo to the .vim folder in your homedir, then
 ```
 git clone https://github.com/boosterl/dotvim.git ~/.vim
 git submodule update --init
-ln -s ~/.vim/vimrc .vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 ``` 
