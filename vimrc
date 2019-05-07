@@ -39,3 +39,9 @@ set updatetime=100
 
 "Settings for colorschemes
 colorscheme github
+
+"Settings for hardtime, inspired by vimce (https://github.com/Vincevrp/dotfiles/commit/a2555196bb516c0c370f6a0b32b23a7360669796)
+let g:hardtime_default_on = 1
+let g:hardtime_timeout = 500
+let g:hardtime_ignore_quickfix = 1
+let g:list_of_disabled_keys = ["<UP>", "<DOWN>", "<LEFT>", "<RIGHT>"]
