@@ -9,6 +9,7 @@ set softtabstop=2
 set expandtab
 
 set number
+set number relativenumber 
 filetype plugin on
 
 "Settings for pathogen
