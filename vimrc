@@ -38,10 +38,28 @@ let g:airline_theme='papercolor'
 set updatetime=100
 
 "Settings for colorschemes
-colorscheme github
+set background=light
+
+let g:PaperColor_Theme_Options = {
+  \   'theme': {
+  \     'default': {
+  \       'transparent_background': 1
+  \     }
+  \   }
+  \ }
+
+colorscheme PaperColor
+
 
 "Settings for hardtime, inspired by vimce (https://github.com/Vincevrp/dotfiles/commit/a2555196bb516c0c370f6a0b32b23a7360669796)
 let g:hardtime_default_on = 1
 let g:hardtime_timeout = 500
 let g:hardtime_ignore_quickfix = 1
 let g:list_of_disabled_keys = ["<UP>", "<DOWN>", "<LEFT>", "<RIGHT>"]
+
+"Settings for colorcolumn
+set colorcolumn=80
+
+"Settings for cursor column and line
+set cursorline
+hi CursorLine term=bold cterm=bold
