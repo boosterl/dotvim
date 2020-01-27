@@ -63,3 +63,6 @@ set colorcolumn=80
 "Settings for cursor column and line
 set cursorline
 hi CursorLine term=bold cterm=bold
+
+"Search also for hidden tags file
+set tags=./tags;,tags;./.tags;,.tags;
