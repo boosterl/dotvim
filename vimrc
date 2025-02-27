@@ -66,3 +66,6 @@ hi CursorLine term=bold cterm=bold
 
 "Search also for hidden tags file
 set tags=./tags;,tags;./.tags;,.tags;
+
+"Copy content from the " register to Wayland clipboard
+nnoremap <C-@> :call system("wl-copy", @")<CR>
